@@ -51,6 +51,12 @@ flutter:
     - assets/img/dev3.jpg
     - assets/img/dev4.jpg
     - assets/img/dev5.jpg
+    - assets/img/banner.jpg
+
+  fonts: 
+    - family: OpenSans
+      fonts: 
+        - asset: fonts/OpenSans-Regular.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

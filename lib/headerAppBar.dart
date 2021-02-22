@@ -15,13 +15,21 @@ class HeaderAppBar extends StatelessWidget {
         height: 140,
         width: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.blue
+          image: DecorationImage(
+            fit: BoxFit.cover,
+            image: AssetImage("assets/img/banner.jpg"),
+            colorFilter: ColorFilter.mode(
+              Color.fromRGBO(70, 135, 190, 0.80),
+              BlendMode.srcATop,
+            ),
+          ),
         ),
         child: Text(
           titleAppBar,
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.0,
+            fontFamily: "OpenSans",
             fontWeight: FontWeight.bold
           ),
         ),

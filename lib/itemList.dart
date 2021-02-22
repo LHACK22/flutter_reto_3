@@ -35,6 +35,7 @@ class ItemList extends StatelessWidget {
         name,
         style: TextStyle(
           fontSize: 17.0,
+          fontFamily: "OpenSans",
           fontWeight: FontWeight.bold,
         ),
       ),
@@ -49,6 +50,7 @@ class ItemList extends StatelessWidget {
         xp,
         style: TextStyle(
           fontSize: 17.0,
+          fontFamily: "OpenSans",
         ),
       ),
     );
